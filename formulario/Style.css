@@ -1,0 +1,107 @@
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(imagenes/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main {
+    top: -8px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59em;
+    background-color: rgba(255, 255, 255, 0.358);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.96);
+}
+
+.main img {
+    width: 35em;
+}
+
+.main h1 {
+    font-size: 2.5em;
+}
+
+.main form {
+    width: 28em;
+    padding-right: 35px;
+}
+
+.options-inline {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.inputs-form input {
+    font-size: 20px;
+    width: 18em;
+    height: 2em;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+
+    width: 100%;
+ 
+    max-width: 45px;
+   
+
+    height: auto;
+    margin: 0 10px;
+ 
+}
+
+.inputs-form .registrarse {
+    width: 20em;
+    height: 3em;
+    padding: 0px 0px;
+    background-color: rgb(214, 0, 0);
+    color: white;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.inputs-form .registrarse:hover {
+    transform: scale(1.02);
+    background-color: #d29e00;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .main img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .main form {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .inputs-form input {
+        width: 100%;
+    }
+
+    .inputs-form .registrarse {
+        width: 100%;
+    }
+}

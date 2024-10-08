@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shorcut icon" href="img/Logo-VG_Tpt02.png">
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="main">
+        <img src="imagenes/Logo-VG_Tpt02.png" alt="Logo de Valle Grande.">
+        <center>
+            <form action="/submit_form" method="post">
+                <h1>BIENVENIDOS</h1>
+                <div class="options-inline">
+                    <input type="radio" id="option1" name="options" value="option1">
+                    <label for="option1">Análisis de Sistema</label>
+                </div>
+                <div class="options-inline">
+                    <input type="radio" id="option2" name="options" value="option2">
+                    <label for="option2">Producción Agraria</label>
+                </div><br><br>
+
+                <div class="inputs-form">
+                    <input placeholder="Nombre Completo" type="text" id="firstName" name="firstName" required><br><br>
+
+                    <input placeholder="Apellidos" type="text" id="lastName" name="lastName" required><br><br>
+
+                    <input placeholder="Edad" type="text" id="edad" name="edad" required><br><br>
+
+                    <input placeholder="Correo" type="email" id="email" name="email" required><br><br>
+
+                    <input placeholder="Contraseña" type="password" id="password" name="password" required><br><br>
+
+                    <a href="index.html">¿Olvidó su contraseña?</a><br><br>
+                </div>
+                <div class="logos">
+                    <a href="index.html">
+
+                        <img src="imagenes/google.png" alt="Logotipo 1" class="logo">   </a>
+                        <a href="index.html">  <img src="imagenes/github.png" alt="Logotipo 2" class="logo"></a>
+                      
+                       <a href="index.html"><img src="imagenes/facebook.png" alt="Logotipo 3" class="logo"></a> 
+
+                 
+                    
+
+                </div>
+
+                <input type="checkbox" id="acuerdo" name="acuerdo" value="acuerdo">
+                <label for="acuerdo">Aceptar la política de privacidad de los Términos y condiciones.</label><br><br>
+
+                <div class="inputs-form">
+                    <input class="registrarse" type="submit" value="Registrarme">
+
+                </div>
+            </form>
+        </center>
+    </div>
+</body>
+
+</html>
